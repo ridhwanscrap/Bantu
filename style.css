@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", system-ui;
+}
+
+body{
+    background-color: #ffffff69;
+}
+.navbar{
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000b4;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.btn{
+    color: #fff;
+    background-color: #4564de;
+    padding: 1rem;
+    border-radius: 1.2rem;
+
+}
+
+.hero-section{
+    height: 90vh;
+    margin-left: 3rem;
+    display: flex;
+}
+
+.hero-text-area{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+span{
+    color: #4564de;
+}
+.hero-pera{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero-img{
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-img2{
+    height: auto;
+    width: 50%;
+    background-image: url(img/Vitamin.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.hero-img1{
+    height: auto;
+    width: 50%;
+    background-image: url(img/Welcome.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+input{
+    padding: .8rem 3rem;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+}
+i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.services-section{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.services-pera{
+    padding: 0 20rem;
+}
+
+.services-card{
+    padding-top: 5vh;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.single-card{
+    height: 10rem;
+    width: 25%;
+    padding: 2rem 2rem;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    background-color: #7e737367;
+    cursor: pointer;
+}
+.single-service-pera{
+    font-weight: 500;
+}
+.services-pera{
+    font-weight: 500;
+}
+.load{
+    padding: 1rem;
+    border-radius: 1.2rem;
+    background-color: #4564de;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 6rem;
+    cursor: pointer;;
+}
+
+.app-section{
+    height: 80vh;
+    display: flex;
+    /* background-color: red; */
+}
+
+.app-img{
+    height: 100%;
+    width: 50%;
+    background-image: url(img/Mask\ Group.png);
+    background-size: cover;
+}
+
+.app-text-area{
+    padding-top: 10rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+}
+
+.app-section a{
+    text-decoration: none;
+}
+
+.app-section h1{
+    padding: 2rem 0 1rem 0;
+    font-size: 3.5rem;
+}
+
+.app-section p{
+    padding-right: 20rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.app-link{
+    padding-top: 2rem;
+    
+}
+.app-ps{
+    height: 9vh;
+    width: 30%;
+    background-image: url(img/playstore.png);
+    background-size: cover;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.app-as{
+    height: 9vh;
+    width: 30%;
+    background-image: url(img/appstore.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.information-section{
+    padding: 0 6rem;
+    height: 80vh;
+}
+
+.information-text-area{
+    padding-top: 3rem;
+    width: 50%;
+}
+
+.information li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.information-text-area h4{
+    padding-bottom: 3rem;
+}
+
+.information-pera{
+    padding-left: 2.6rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.see-demo{
+    margin: 2rem 0 0 2rem;
+    margin-top: 5rem;
+}
+.btn{
+    text-decoration: none;
+}
+
+.btn:hover{
+    text-decoration:underline;
+}
